@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd">
+    <Style src="project://database/Assets/styles.uss?fileID=7433441132597879392&amp;guid=3ece61815309edd4ebae12b4aeece21b&amp;type=3#styles" />
+    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:ProgressBar title="Boost Amount" />
+</ui:UXML>

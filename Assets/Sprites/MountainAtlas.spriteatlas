@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MountainAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -434814142, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 895800774, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -123544646, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1954828499, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1875652960, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -875660907, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 540453911, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1865186734, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 19145765, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1030064081, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -323858316, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -406129814, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1870028004, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1219412478, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1882054967, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1581005632, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1164567081, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 2122273496, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1539058511, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -982440356, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1790592573, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -589296014, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -510188572, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1689587406, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -17607271, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -2033485872, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 303459412, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -797643265, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -666454069, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1771121596, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -650168602, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 562188809, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -963476813, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 119846248, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1853334370, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -424224334, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -598310794, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1628816455, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1526962704, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1572056126, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -784444915, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -318940587, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -346075601, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -536332483, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1996935117, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1659393921, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 2054885373, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: -1932332545, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 507825146, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  - {fileID: 1402477391, guid: 1a66dbfe73042184fb67ee6a7df67ff7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Mountain_49
+  - Mountain_48
+  - Mountain_38
+  - Mountain_41
+  - Mountain_39
+  - Mountain_40
+  - Mountain_43
+  - Mountain_42
+  - Mountain_34
+  - Mountain_45
+  - Mountain_35
+  - Mountain_44
+  - Mountain_36
+  - Mountain_47
+  - Mountain_37
+  - Mountain_46
+  - Mountain_30
+  - Mountain_31
+  - Mountain_32
+  - Mountain_33
+  - Mountain_7
+  - Mountain_6
+  - Mountain_5
+  - Mountain_4
+  - Mountain_3
+  - Mountain_2
+  - Mountain_1
+  - Mountain_0
+  - Mountain_9
+  - Mountain_8
+  - Mountain_12
+  - Mountain_13
+  - Mountain_10
+  - Mountain_11
+  - Mountain_16
+  - Mountain_17
+  - Mountain_14
+  - Mountain_15
+  - Mountain_18
+  - Mountain_19
+  - Mountain_29
+  - Mountain_28
+  - Mountain_27
+  - Mountain_26
+  - Mountain_25
+  - Mountain_24
+  - Mountain_23
+  - Mountain_22
+  - Mountain_21
+  - Mountain_20
+  m_RenderDataMap: {}
+  m_Tag: MountainAtlas
+  m_IsVariant: 0

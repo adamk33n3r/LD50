@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8063512279415922631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acaf75cc66fc934ea46bf602fc7c245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions:
+    - distributionName: LD50-Dist
+      enabled: 1
+  architectures:
+  - target: 20
+    name: WebGL
+    enabled: 1
+    binaryNameFormat: '{0}'
+  variants: []
+  platformName: WebGL
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 13
+--- !u!114 &-4032923354578282937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0f7a04940394844a505e73c3eb8cec, type: 3}
+  m_Name: ZipFileOperation
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: ZipFileOperation
+  note: 
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 0
+    clauses: []
+  inputPath: $BUILDPATH
+  outputPath: $BUILDPATH
+  outputFileName: $PRODUCT_NAME-$RELEASE_TYPE-$YEAR_$MONTH_$DAY.zip
+--- !u!114 &-2546229375933079275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2786f6b2301a94f4288672ff5305244c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions:
+    - distributionName: LD50-Dist
+      enabled: 1
+  architectures:
+  - target: 5
+    name: Windows x86
+    enabled: 1
+    binaryNameFormat: '{0}.exe'
+  - target: 19
+    name: Windows x64
+    enabled: 0
+    binaryNameFormat: '{0}.exe'
+  variants:
+  - variantName: Build Output
+    selectedIndex: 0
+    values:
+    - App
+    - Visual Studio Solution
+  platformName: PC
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: SuperUnityBuildSettings
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: Builds
+    buildPath: $VERSION/$RELEASE_TYPE/$PLATFORM/$ARCHITECTURE
+    openFolderPostBuild: 1
+  _productParameters:
+    buildCounter: 3
+    buildVersion: 1.0.0.3
+    versionTemplate: 1.0.0.$BUILD
+    autoGenerate: 1
+    syncWithPlayerSettings: 0
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: Dev
+      bundleIdentifier: com.DefaultCompany.LD50
+      companyName: DefaultCompany
+      productName: LD50
+      buildOptions: 1
+      customDefines: 
+      sceneList:
+        enabledScenes:
+        - fileGUID: 790b1802201affb4296bd245f0416d31
+        - fileGUID: 67472ee0a3c3b5542ba3b18d458a780b
+  _platformList:
+    platforms:
+    - {fileID: -2546229375933079275}
+    - {fileID: -8063512279415922631}
+  _projectConfigurations:
+    configSet:
+      _Buckets: ffffffff05000000ffffffffffffffff06000000ffffffff04000000
+      _HashCodes: 7270f32929d74c0f43f3a0503acfba65f7191d702f610d3337671a34
+      _Next: ffffffff0000000001000000ffffffffffffffff0300000002000000
+      _Count: 7
+      _Version: 7
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - Dev/PC/Windows x86 (App)/LD50-Dist
+      - Dev/PC/Windows x86 (App)
+      - Dev/PC
+      - Dev/WebGL/WebGL/LD50-Dist
+      - Dev/WebGL/WebGL
+      - Dev/WebGL
+      - Dev
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Dev/PC/Windows x86 (App)/LD50-Dist
+      - enabled: 1
+        childKeys:
+        - Dev/PC/Windows x86 (App)
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Dev/WebGL/WebGL/LD50-Dist
+      - enabled: 1
+        childKeys:
+        - Dev/WebGL/WebGL
+      - enabled: 1
+        childKeys:
+        - Dev/PC
+        - Dev/WebGL
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 0
+    treeView: 0
+    selectedKeyChain: 
+  _preBuildActions:
+    buildActions: []
+  _postBuildActions:
+    buildActions:
+    - {fileID: -4032923354578282937}
+--- !u!114 &1628687032630852365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0f7a04940394844a505e73c3eb8cec, type: 3}
+  m_Name: ZipFileOperation
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: ZipFileOperation
+  note: 
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 0
+    clauses: []
+  inputPath: $BUILDPATH
+  outputPath: $BUILDPATH
+  outputFileName: $PRODUCT_NAME-$RELEASE_TYPE-$YEAR_$MONTH_$DAY.zip
+--- !u!114 &9032152383715143750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0f7a04940394844a505e73c3eb8cec, type: 3}
+  m_Name: ZipFileOperation
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: ZipFileOperation
+  note: 
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 0
+    clauses: []
+  inputPath: $BUILDPATH
+  outputPath: $BUILDPATH
+  outputFileName: $PRODUCT_NAME-$RELEASE_TYPE-$YEAR_$MONTH_$DAY.zip
+--- !u!114 &9197073321461671002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e19aa5315bf4a409c07e84ca8c4248, type: 3}
+  m_Name: FileOperation
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: FileOperation
+  note: 
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 0
+    clauses: []
+  inputPath: 
+  outputPath: 
+  recursiveSearch: 1
+  operation: 0

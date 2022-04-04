@@ -1,0 +1,37 @@
+.button {
+    height: 92px;
+    width: 228px;
+    background-color: rgb(95, 218, 231);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    font-size: 48px;
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+
+.button:hover {
+    background-color: rgb(93, 154, 238);
+}
+
+.button:active {
+    background-color: rgb(16, 255, 236);
+}
+
+.unity-progress-bar__progress {
+    background-color: rgba(231, 163, 5, 255);
+}
