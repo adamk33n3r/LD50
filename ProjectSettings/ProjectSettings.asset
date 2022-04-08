@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0.0.4
+  bundleVersion: 1.0.0.10
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -156,11 +156,11 @@ PlayerSettings:
     Standalone: com.DefaultCompany.LD50
     WebGL: com.DefaultCompany.LD50
   buildNumber:
-    Standalone: 5
-    iPhone: 5
+    Standalone: 8
+    iPhone: 8
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 6
+  AndroidBundleVersionCode: 9
   AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -528,14 +528,14 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     Standalone: BUILD_TYPE_DEV;BUILD_PLATFORM_PC;BUILD_ARCH_WINDOWSX86;BUILD_DIST_LD50_DIST
-    WebGL: BUILD_TYPE_DEV;BUILD_PLATFORM_WEBGL;BUILD_ARCH_WEBGL;BUILD_DIST_LD50_DIST
+    WebGL: BUILD_TYPE_RELEASE;BUILD_PLATFORM_WEBGL;BUILD_ARCH_WEBGL;BUILD_DIST_LD50_DIST
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

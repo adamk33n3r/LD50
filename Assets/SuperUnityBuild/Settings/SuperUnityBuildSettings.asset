@@ -101,8 +101,8 @@ MonoBehaviour:
     buildPath: $VERSION/$RELEASE_TYPE/$PLATFORM/$ARCHITECTURE
     openFolderPostBuild: 1
   _productParameters:
-    buildCounter: 7
-    buildVersion: 1.0.0.7
+    buildCounter: 9
+    buildVersion: 1.0.0.9
     versionTemplate: 1.0.0.$BUILD
     autoGenerate: 1
     syncWithPlayerSettings: 0
@@ -118,17 +118,27 @@ MonoBehaviour:
         enabledScenes:
         - fileGUID: 790b1802201affb4296bd245f0416d31
         - fileGUID: 67472ee0a3c3b5542ba3b18d458a780b
+    - typeName: Release
+      bundleIdentifier: com.DefaultCompany.LD50
+      companyName: DefaultCompany
+      productName: LD50
+      buildOptions: 0
+      customDefines: 
+      sceneList:
+        enabledScenes:
+        - fileGUID: 790b1802201affb4296bd245f0416d31
+        - fileGUID: 67472ee0a3c3b5542ba3b18d458a780b
   _platformList:
     platforms:
     - {fileID: -2546229375933079275}
     - {fileID: -8063512279415922631}
   _projectConfigurations:
     configSet:
-      _Buckets: ffffffff05000000ffffffffffffffff06000000ffffffff04000000
-      _HashCodes: 7270f32929d74c0f43f3a0503acfba65f7191d702f610d3337671a34
-      _Next: ffffffff0000000001000000ffffffffffffffff0300000002000000
-      _Count: 7
-      _Version: 7
+      _Buckets: 07000000ffffffffffffffff0d00000005000000040000000b00000001000000030000000c00000008000000ffffffffffffffffffffffff0a00000006000000ffffffff
+      _HashCodes: 7270f32929d74c0f43f3a0503acfba65f7191d702f610d3337671a340c593642b3f3dc63510e9f59f80552466d38f6476da5e2352d6dfd48000000000000000000000000
+      _Next: ffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffff02000000ffffffff09000000000000000000000000000000
+      _Count: 14
+      _Version: 14
       _FreeList: -1
       _FreeCount: 0
       _Keys:
@@ -139,6 +149,16 @@ MonoBehaviour:
       - Dev/WebGL/WebGL
       - Dev/WebGL
       - Dev
+      - Release/PC/Windows x86 (App)/LD50-Dist
+      - Release/PC/Windows x86 (App)
+      - Release/PC
+      - Release/WebGL/WebGL/LD50-Dist
+      - Release/WebGL/WebGL
+      - Release/WebGL
+      - Release
+      - 
+      - 
+      - 
       _Values:
       - enabled: 1
         childKeys: []
@@ -160,12 +180,38 @@ MonoBehaviour:
         childKeys:
         - Dev/PC
         - Dev/WebGL
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/PC/Windows x86 (App)/LD50-Dist
+      - enabled: 1
+        childKeys:
+        - Release/PC/Windows x86 (App)
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/WebGL/WebGL/LD50-Dist
+      - enabled: 1
+        childKeys:
+        - Release/WebGL/WebGL
+      - enabled: 1
+        childKeys:
+        - Release/PC
+        - Release/WebGL
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
     showViewOptions: 0
     showConfigs: 0
     showBuildInfo: 0
     hideDisabled: 0
     treeView: 0
-    selectedKeyChain: Dev/PC/Windows x86 (App)/LD50-Dist
+    selectedKeyChain: Release/WebGL/WebGL/LD50-Dist
   _preBuildActions:
     buildActions: []
   _postBuildActions:

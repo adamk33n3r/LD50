@@ -6,18 +6,21 @@ public static class BuildConstants
     {
         None,
         Dev,
+        Release,
     }
 
     public enum Platform
     {
         None,
         PC,
+        WebGL,
     }
 
     public enum Architecture
     {
         None,
         Windows_x86,
+        WebGL,
     }
 
     public enum Distribution
@@ -26,11 +29,11 @@ public static class BuildConstants
         LD50_Dist,
     }
 
-    public static readonly System.DateTime buildDate = new System.DateTime(637845431530120678);
-    public const string version = "1.0.0.2";
-    public const ReleaseType releaseType = ReleaseType.Dev;
-    public const Platform platform = Platform.PC;
-    public const Architecture architecture = Architecture.Windows_x86;
+    public static readonly System.DateTime buildDate = new System.DateTime(637850382245752860);
+    public const string version = "1.0.0.8";
+    public const ReleaseType releaseType = ReleaseType.Release;
+    public const Platform platform = Platform.WebGL;
+    public const Architecture architecture = Architecture.WebGL;
     public const Distribution distribution = Distribution.LD50_Dist;
 }
 
