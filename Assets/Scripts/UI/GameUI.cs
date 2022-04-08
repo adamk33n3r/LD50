@@ -18,6 +18,6 @@ public class GameUI : MonoBehaviour
     void Update()
     {
         this.boostSlider.value = this.boostAmount.Value;
-        this.boostAmountText.text = boostAmount.Value + "%";
+        this.boostAmountText.text = "Boost: " + boostAmount.Value + "%";
     }
 }

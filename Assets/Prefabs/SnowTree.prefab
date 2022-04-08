@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7260696295311737131}
   - component: {fileID: 5174079271843870449}
-  - component: {fileID: 4602420355937625254}
+  - component: {fileID: 6939194315872682566}
   m_Layer: 0
   m_Name: SnowTree
   m_TagString: Tree
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &4602420355937625254
-CapsuleCollider2D:
+--- !u!60 &6939194315872682566
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -98,6 +98,30 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.1863432}
-  m_Size: {x: 2, y: 3.6273136}
-  m_Direction: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 4}
+    newSize: {x: 2, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.79614687, y: 0.67392445}
+      - {x: 0.7988806, y: 0.82607555}
+      - {x: 0.34238338, y: 1.1058702}
+      - {x: 0.14404106, y: 1.6113796}
+      - {x: -0.035305023, y: 1.6276884}
+      - {x: -0.58965015, y: 1.0516138}
+      - {x: -0.7825718, y: 0.19296646}
+      - {x: -0.5950718, y: -0.057034492}
+      - {x: -0.7961464, y: -0.85053825}
+      - {x: -1, y: -1.6875}
+      - {x: -0.8125, y: -2}
+      - {x: 0.8125, y: -2}
+      - {x: 1, y: -1.8125}
+      - {x: 0.91030455, y: -0.32338715}
+      - {x: 0.53799343, y: 0.4892025}
