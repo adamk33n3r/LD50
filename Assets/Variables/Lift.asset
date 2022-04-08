@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6ce907dcd3754bab7e17550ba68ea, type: 3}
   m_Name: Lift
   m_EditorClassIdentifier: 
-  InitialValue: 10
+  InitialValue: 7

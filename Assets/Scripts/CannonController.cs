@@ -22,7 +22,7 @@ public class CannonController : MonoBehaviour
         if (Input.GetButton("Jump")) {
             this.fired = true;
             this.glider.SetDisabled(false);
-            this.glider.rigidbody2D.AddForce(Vector2.right * 100, ForceMode2D.Impulse);
+            this.glider.rigidbody2D.AddForce(Vector2.right * 10, ForceMode2D.Impulse);
             AudioSource audio = Camera.main.GetComponent<AudioSource>();
             audio.PlayOneShot(this.launch);
         }
