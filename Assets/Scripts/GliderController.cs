@@ -53,8 +53,8 @@ public class GliderController : MonoBehaviour
         SetDisabled(true);
         this.boostGO.SetActive(this.hasBoost);
         this.boostAmount.Value = 100;
-        this.drag.Value = 15;
-        this.lift.Value = 5;
+        // this.drag.Value = 15;
+        // this.lift.Value = 5;
     }
 
     void FixedUpdate()
@@ -136,7 +136,7 @@ public class GliderController : MonoBehaviour
         // this.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
         this.tilt = -Input.GetAxis("Horizontal");
-        if (Input.GetButtonDown("Jump")) {
+        if (this.hasBoost.Value && this.boostAmount.Value > 0 && Input.GetButtonDown("Jump")) {
             PlaySound(this.boost);
         }
     }
@@ -152,6 +152,7 @@ public class GliderController : MonoBehaviour
             if (this.transform.position.x > this.winPoint.transform.position.x && this.transform.position.y > this.winPoint.transform.position.y) {
                 Debug.Log("You win!");
                 PlaySound(this.win);
+                SetDisabled(true);
                 this.endScreen.FinishGame(true);
             } else {
                 PlaySound(this.death);

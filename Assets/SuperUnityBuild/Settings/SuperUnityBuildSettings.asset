@@ -48,7 +48,7 @@ MonoBehaviour:
     clauses: []
   inputPath: $BUILDPATH
   outputPath: $BUILDPATH
-  outputFileName: $PRODUCT_NAME-$RELEASE_TYPE-$YEAR_$MONTH_$DAY.zip
+  outputFileName: $PRODUCT_NAME-$RELEASE_TYPE-$PLATFORM-$ARCHITECTURE-$YEAR_$MONTH_$DAY.zip
 --- !u!114 &-2546229375933079275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,8 +101,8 @@ MonoBehaviour:
     buildPath: $VERSION/$RELEASE_TYPE/$PLATFORM/$ARCHITECTURE
     openFolderPostBuild: 1
   _productParameters:
-    buildCounter: 3
-    buildVersion: 1.0.0.3
+    buildCounter: 7
+    buildVersion: 1.0.0.7
     versionTemplate: 1.0.0.$BUILD
     autoGenerate: 1
     syncWithPlayerSettings: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
     showBuildInfo: 0
     hideDisabled: 0
     treeView: 0
-    selectedKeyChain: 
+    selectedKeyChain: Dev/PC/Windows x86 (App)/LD50-Dist
   _preBuildActions:
     buildActions: []
   _postBuildActions:
